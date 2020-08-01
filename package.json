@@ -1,0 +1,11 @@
+{
+  "name": "carrefour-tc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rosivaldo Lucas <rosivaldosilva@eng.ci.ufpb.br>",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0",
+    "request": "^2.88.2"
+  }
+}
