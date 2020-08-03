@@ -41,7 +41,7 @@ bot.onText(/\/start/, (msg) => {
   bot.sendMessage(msg.chat.id,
     'Olá ' +
     msg.from.first_name +
-    ' , sejá bem vindo ao Botzinho Carrefour. Aqui você encontra tudo que precisa, ' +
+    ', sejá bem vindo ao Botzinho Carrefour. Aqui você encontra tudo que precisa, ' +
     'sem sair do conforto da sua casa.\nPara começar a usar, pesquise pelo produto que deseja: ');
 });
 
@@ -64,7 +64,7 @@ bot.on('message', async (msg) => {
   bot.sendMessage(chatId, 'Pesquisando o produto...');
 
   if (products.length === 0) {
-    bot.sendMessage(chatId, 'Infelizmente não encontramos o seu produto. Por favor, verifique que digitou um nome produto válido.');
+    bot.sendMessage(chatId, 'Infelizmente não encontramos o seu produto. Por favor, verifique se digitou nome válido.');
     return;
   }
 

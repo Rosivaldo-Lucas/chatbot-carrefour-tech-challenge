@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Rosivaldo Lucas <rosivaldosilva@eng.ci.ufpb.br>",
   "license": "MIT",
+  "scripts": {
+    "dev": "node ./src/index.js"
+  },
   "dependencies": {
     "dotenv": "^8.2.0",
     "node-telegram-bot-api": "^0.50.0",
